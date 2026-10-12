@@ -1,0 +1,72 @@
+[
+  {
+    "sku": "TEC-001",
+    "marca": "Logitech",
+    "nombre": "Mouse inalámbrico",
+    "precio": 89900,
+    "foto": "images/mouse.svg"
+  },
+  {
+    "sku": "TEC-002",
+    "marca": "Logitech",
+    "nombre": "Teclado compacto",
+    "precio": 129900,
+    "foto": "images/teclado.svg"
+  },
+  {
+    "sku": "TEC-003",
+    "marca": "HyperX",
+    "nombre": "Audífonos gamer",
+    "precio": 189900,
+    "foto": "images/audifonos.svg"
+  },
+  {
+    "sku": "TEC-004",
+    "marca": "Samsung",
+    "nombre": "Monitor de 24 pulgadas",
+    "precio": 649900,
+    "foto": "images/monitor.svg"
+  },
+  {
+    "sku": "TEC-005",
+    "marca": "Kingston",
+    "nombre": "Memoria USB de 64 GB",
+    "precio": 29900,
+    "foto": "images/usb.svg"
+  },
+  {
+    "sku": "TEC-006",
+    "marca": "SanDisk",
+    "nombre": "Tarjeta microSD de 128 GB",
+    "precio": 54900,
+    "foto": "images/microsd.svg"
+  },
+  {
+    "sku": "TEC-007",
+    "marca": "JBL",
+    "nombre": "Parlante portátil",
+    "precio": 159900,
+    "foto": "images/parlante.svg"
+  },
+  {
+    "sku": "TEC-008",
+    "marca": "Logitech",
+    "nombre": "Cámara web HD",
+    "precio": 119900,
+    "foto": "images/webcam.svg"
+  },
+  {
+    "sku": "TEC-009",
+    "marca": "Anker",
+    "nombre": "Cargador USB-C",
+    "precio": 79900,
+    "foto": "images/cargador.svg"
+  },
+  {
+    "sku": "TEC-010",
+    "marca": "Redragon",
+    "nombre": "Mousepad gamer",
+    "precio": 45900,
+    "foto": "images/mousepad.svg"
+  }
+]

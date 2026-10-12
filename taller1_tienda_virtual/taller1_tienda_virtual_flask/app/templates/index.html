@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block titulo %}Catálogo | TecnoTienda{% endblock %}
+{% block contenido %}
+<section class="introduccion">
+  <p class="etiqueta">CATÁLOGO</p>
+  <h1>Encuentra tu próximo accesorio</h1>
+  <p>Explora productos de tecnología y selecciona uno para ver sus detalles.</p>
+</section>
+<section class="productos">
+{% for producto in productos %}
+  <article class="tarjeta">
+    <img src="{{ url_for('static', filename=producto.foto) }}" alt="{{ producto.nombre }}">
+    <div class="tarjeta-contenido">
+      <p class="marca">{{ producto.marca }}</p>
+      <h2>{{ producto.nombre }}</h2>
+      <p class="precio">${{ "{:,.0f}".format(producto.precio).replace(",", ".") }} COP</p>
+      <a class="boton" href="{{ url_for('main.detalle', sku=producto.sku) }}">Ver detalle</a>
+    </div>
+  </article>
+{% endfor %}
+</section>
+{% endblock %}
